@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChoixActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="407dp"
+        android:layout_height="89dp"
+        android:background="#090909"
+        android:shadowColor="#FFFFFF"
+        android:text="Total:   "
+
+        android:textColor="#FDFCFC"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:drawableTint="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/div"
+        android:layout_width="147dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginEnd="125dp"
+        android:layout_marginRight="125dp"
+        android:text="pay on delivery"
+        app:backgroundTint="#0B0B0B"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/Phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="170dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginRight="100dp"
+        android:hint="phone number"
+        android:textColorHint="#565E5B5B"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="phone"
+
+        android:textColor="#090909"
+        app:drawableTint="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+         />
+
+    <EditText
+        android:id="@+id/adr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="260dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginRight="100dp"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:hint="adress"
+        android:textColorHint="#565E5B5B"
+        android:textColor="#0C0C0C"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="149dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="440dp"
+        android:layout_marginEnd="125dp"
+        android:layout_marginRight="125dp"
+        android:text="pay online"
+        app:backgroundTint="#0B0B0B"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/pos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="360dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginRight="100dp"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="textPostalAddress"
+        android:hint="Postal code"
+        android:textColorHint="#565E5B5B"
+        android:textColor="#0C0C0C"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="85dp"
+        android:layout_height="59dp"
+        android:gravity="center"
+        android:text="31€"
+        android:textColor="#EFE5E5"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
